@@ -10,9 +10,9 @@ router.get('/reservas', (req, res) => {
     res.render('reservas');
   });
 
-  router.use((req, res)=>{
-    res.status(400).render('404')
-})
+  router.use((req, res) => {
+    res.status(404).render('404');
+  });
 
 export default router
   

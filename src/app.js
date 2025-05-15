@@ -1,6 +1,7 @@
 import express from 'express'
 import path from 'path'
 import { fileURLToPath} from "url"
+import router from './routes/index.routes.js'
 
 const app = express()
 const _dirname = path.dirname(fileURLToPath(import.meta.url))
