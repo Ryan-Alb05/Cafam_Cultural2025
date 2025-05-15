@@ -47,7 +47,7 @@ nav a {
 }
 
 #home {
-  background-image: url('Imagenes/maxresdefault.jpg');
+  background-image: url('../Imagenes/maxresdefault.jpg');
   background-size: cover;
   background-position: center;
   height: 816px;
@@ -81,9 +81,6 @@ section {
   max-width: 1000px;
 }
 
-
-
-
 .divhistoria, 
 .divazucar {
   background-size: contain;
@@ -100,37 +97,34 @@ section {
 }
 
 .divhistoria{
-  background-image: url(Imagenes/spm1.jpg);
+  background-image: url(../Imagenes/spm1.jpg);
 }
 
 .divazucar{
-  background-image: url(Imagenes/azucar.jpg);
+  background-image: url(../Imagenes/azucar.jpg);
 }
 .divpeloteros{
-  background-image: url(Imagenes/b2b010_a416274781e94012b143f200d9a2e915~mv2.avif);
+  background-image: url(../Imagenes/b2b010_a416274781e94012b143f200d9a2e915~mv2.avif);
 }
 .divcultura{
-  background-image: url(Imagenes/cultura.jpg);
+  background-image: url(../Imagenes/cultura.jpg);
 }
 .divartesania{
-  background-image: url(Imagenes/artesania.jpg);
+  background-image: url(../Imagenes/artesania.jpg);
 }
 
-.divcocolos{
-  background-image: url(Imagenes/);
-}
 
 .divgagas{
-  background-image: url(Imagenes/gagas.webp);
+  background-image: url(../Imagenes/gagas.webp);
 
 }
 
 .divcocolos{
-  background-image: url(Imagenes/Presentación\ del\ Teatro\ Cocolo\ Danzante\ de\ los\ Guloyas\ de\ San\ Pedro\ de\ Macorís\ 2.jfif);
+  background-image: url(../Imagenes/PresentacióndelTeatroCocoloDanzantedelosGuloyasdeSanPedrodeMacorís2.jfif);
 }
 
 .divmorey{
-  background-image: url(Imagenes/edificiomorey.webp);
+  background-image: url(../Imagenes/edificiomorey.webp);
 }
 
 .divpeloteros, 
@@ -245,6 +239,32 @@ footer {
   background-color: #0066cc;
   transform: scale(1.1);
 }
+
+.reservas-container {
+  position: fixed ;
+  right: 5px;
+  top: -45px;
+  margin: 3rem 0 1rem;
+}
+
+.btn-reservas {
+  display: inline-block;
+  background-color: #c20000;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-reservas:hover {
+  background-color: #005e03;
+  transform: scale(1.05);
+}
+
+
 
 @keyframes fadeInUp {
   from {
